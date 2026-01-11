@@ -1,0 +1,35 @@
+/* banner section start */
+.shop-banner-section{
+    background: linear-gradient(rgba(206, 221, 235, 0.5),rgba(146, 149, 151, 0.5)),url(../image/shop_banner.png) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop-banner-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.shop-banner-child h1{
+    font-size: 50px;
+}
+/* banner section end*/
+/* responsive */
+@media (min-width: 320px) and (max-width: 575.98px){
+    .shop-banner-child h1{
+        font-size: 26px;
+    }
+    .shop-banner-section{
+        min-height: 60vh;
+    }
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+    .shop-banner-child h1{
+        font-size: 35px;
+    }
+}

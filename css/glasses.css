@@ -1,0 +1,158 @@
+/* banner section start */
+.glasses-banner-section{
+    background: url(../image/glasses_banner.png) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+.glasses-banner-child{
+    display: flex;
+    align-items: center;
+}
+.glasses-banner-child h1{
+    font-size: clamp(1.4rem,3vw,3rem);
+    font-style: italic;
+}
+/* banner section end */
+
+/* about section start */
+.glasses-about-child{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.glasses-about-left,.glasses-about-right{
+    width: 50%;
+    padding: 0 15px;
+}
+.glasses-about-right{
+    display: flex;
+    align-items: center;
+}
+.glasses-about-inner-text p:nth-child(7){
+    margin-bottom: 0;
+}
+/* about section end */
+/* special offer section start */
+.special-offer-section{
+    background-color: #D8DDE1;
+}
+.special-offer-child{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+.special-offer-left,.special-offer-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+/* special offer section end */
+/* stylish glasses section start */
+
+.inner-stylish-glasses{
+    text-align: center;
+}
+
+
+/* stylish glasses section end */
+/* responsive */
+@media (min-width: 320px) and (max-width: 575.98px){
+    
+     h2{
+        font-size: 26px;
+    }
+    .span-text{
+        font-size: 40px;
+    }
+    p{
+        font-size: 14px;
+    }
+    .cmn-btn{
+        padding: 10px 15px;
+        font-size: 12px;
+        border-radius: 15px;
+    }
+     .cmn-gap{
+        padding: 50px 0;
+    }
+    /* banner section start */
+    .glasses-banner-section{
+        min-height: 60vh;
+    }
+
+    /* glasses-about-section */
+    .glasses-about-left,.glasses-about-right{
+        width: 100%;
+        padding: 15px;
+    }
+      /* special offer section start */
+    .special-offer-left,.special-offer-right{
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
+}
+}
+@media (min-width: 576px) and (max-width: 767.98px){
+  
+      h2{
+        font-size: 35px;
+    }
+    .span-text{
+        font-size: 50px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .cmn-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        border-radius: 15px;
+    } 
+     .cmn-gap{
+        padding: 50px 0;
+    }
+    /* banner section */
+    
+    /* glasses-about-section */
+    .glasses-about-left,.glasses-about-right{
+        width: 100%;
+        padding: 15px;
+    }
+    /* special offer section start */
+    .special-offer-left,.special-offer-right{
+    width: 100%;
+    justify-content: center;
+    padding: 15px;
+}
+}
+@media (min-width: 768px) and (max-width: 991.98px){
+
+    h2{
+        font-size: 40px;
+    }
+    .span-text{
+        font-size: 50px;
+    }
+    p{
+        font-size: 16px;
+    }
+    .cmn-btn{
+        padding: 10px 15px;
+        font-size: 14px;
+        border-radius: 15px;
+    }
+    .cmn-gap{
+        padding: 50px 0;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199.98px){
+
+}
+@media (min-width: 1200px) and (max-width: 1399.98px){
+
+}

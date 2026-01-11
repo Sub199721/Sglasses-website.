@@ -1,0 +1,29 @@
+/* about banner section start */
+.about-banner-section{
+    background: linear-gradient(rgba(206, 209, 212, 0.5),rgba(170, 180, 189, 0.5)),url(../image/about_banner.png) no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-banner-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-banner-child h1{
+    font-size: 50px;
+}
+/* about banner section end */
+/* responsive */
+@media (min-width: 320px) and (max-width: 575.98px){
+    .about-banner-child h1{
+        font-size: 26px;
+    }
+    .about-banner-section{
+        min-height: 60vh;
+    }
+}
